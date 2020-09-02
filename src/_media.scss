@@ -1,0 +1,155 @@
+// Tablets and Smaller
+@media (max-width: 800px) {
+	#header-home {
+		height: 30rem;
+
+		.header-content {
+			padding-top: 5rem;
+		}
+	}
+	#about {
+		&-a {
+			.container-links {
+				flex-direction: column;
+			}
+
+			.bio.bg-light {
+				font-size: 1.1rem;
+			}
+
+			.bio-more {
+				font-size: 1.1rem;
+			}
+		}
+	}
+}
+
+// Smartphones
+@media (max-width: 500px) {
+	#main-nav {
+		flex-direction: column;
+		align-items: center;
+
+		li {
+			padding: 1rem;
+		}
+	}
+
+	#header {
+		&-home {
+			height: 10rem;
+			border-bottom: 3px solid $main-color;
+			background-position: center top;
+			.header-content {
+				display: none;
+			}
+		}
+
+		&-inner {
+			height: 10rem;
+		}
+	}
+
+	// Stack Grid Columns
+	#home-a .specials,
+	#home-b .stats,
+	#home-c .process,
+	.items {
+		grid-template-columns: 1fr;
+	}
+
+	#home {
+		&-a {
+			.specials div {
+				border-bottom: 1px $light-color solid;
+				padding-bottom: 1rem;
+				&:last-child {
+					border: none;
+					padding-bottom: 0;
+				}
+			}
+		}
+
+		&-b {
+			.stats div {
+				padding: 2rem 0 1rem 0;
+			}
+		}
+	}
+
+	// About
+	#about {
+		&-a {
+			.about-info {
+				grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3";
+
+				.bio {
+					border-left: none;
+				}
+				.container-links {
+					flex-direction: row;
+				}
+			}
+		}
+
+		&-c {
+			display: none;
+		}
+	}
+
+	// Contact
+
+	#contact {
+		&-a {
+			.text-fields {
+				grid-template-areas: "name" "email" "subject" "message";
+			}
+		}
+	}
+
+	// Footer
+	#main-footer {
+		height: 7rem;
+
+		.footer-content {
+			flex-direction: column;
+			padding: 1rem;
+			height: 5rem;
+		}
+	}
+}
+
+// Landscape
+@media (max-height: 580px) {
+	#header-home {
+		.header-content {
+			padding-top: 3rem;
+		}
+	}
+}
+
+// Landscape
+@media (max-height: 330px) {
+	#header-home {
+		.header-content {
+			h1 {
+				font-size: 2rem;
+			}
+		}
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

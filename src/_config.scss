@@ -1,0 +1,34 @@
+// Variables
+$website-width: 1280px;
+$main-color: #ffbc00;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+// Path is relative to where the css file will be compiled (dist/css/) which is why we use ../images instead of ../dist/images
+$bg-image: url("./images/showcase.jpg");
+
+//Functions
+
+//Set Text Color
+@function set-text-color($backgroundColor) {
+  @if (lightness($backgroundColor) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+@function set-background-color($iconColor) {
+  @if (lightness($iconColor) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+//keyframes
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}

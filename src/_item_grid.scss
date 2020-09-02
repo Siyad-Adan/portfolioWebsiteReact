@@ -1,0 +1,45 @@
+.items {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 5rem;
+}
+
+.item {
+	position: relative;
+	background: white;
+	overflow: hidden;
+
+	img:hover {
+		transform: scale(1.05);
+	}
+
+	&-image:before {
+		content: "";
+		display: block;
+		padding-top: 75%;
+		overflow: hidden;
+	}
+
+	img.firstOne {
+		width: 60%;
+		top: 20%;
+		left: 20%;
+	}
+
+	img.lastOne {
+		top: 20%;
+	}
+
+	img.secondOne {
+		top: 10%;
+	}
+
+	&-image img {
+		position: absolute;
+		top: 0%;
+		left: 0;
+		width: 100%;
+		height: auto;
+		border-radius: 5%;
+	}
+}
