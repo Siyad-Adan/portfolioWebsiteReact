@@ -92,8 +92,8 @@ const Home = () => {
               </i>
               <h3>Think of a Project to Work On</h3>
               <p>
-                This could be anything from simple webpage to a mini social
-                network!
+                This could be anything from a simple webpage to a mini social
+                media website!
               </p>
             </div>
             <div>
@@ -102,8 +102,8 @@ const Home = () => {
               </i>
               <h3>Brainstorming technologies to use</h3>
               <p>
-                Considering all technologies that I could possibly use and
-                weight out the pros and cons of each!
+                Considering all technologies that I could possibly use and weigh
+                out the pros and cons of each!
               </p>
             </div>
             <div>
@@ -122,10 +122,10 @@ const Home = () => {
               </i>
               <h3>Finish the project</h3>
               <p>
-                Usually the last 10% of the project is the hard to complete.
-                This usually involves the little details in the project but its
-                so rewarding to learning the little details to get a project
-                finished!
+                Usually the last 10% of the project is the hard part to
+                complete. This usually involves the little details in the
+                project but it is so rewarding to figure out the little details
+                to get a project finished!
               </p>
             </div>
           </div>
