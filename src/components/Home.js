@@ -29,14 +29,14 @@ const Home = () => {
             <i className="fas fa-file-code fa-3x"></i>
             <h3>Front End</h3>
             <p>
-              Constantly learning more about HTML 5, CSS 3, JS, React, Angular
-              and more!
+              Constantly learning more about HTML 5, CSS 3, Javascript,
+              Typescript, React, Angular and more!
             </p>
           </div>
           <div>
             <i className="fas fa-hard-hat fa-3x"></i>
             <h3>Back End</h3>
-            <p>Worked with C# and .NET</p>
+            <p>Worked with C#, .NET, Node.js, Express and GraphQL</p>
           </div>
           <div>
             <i className="fas fa-database fa-3x"></i>
@@ -47,8 +47,8 @@ const Home = () => {
             <i className="fas fa-cogs fa-3x"></i>
             <h3>Infrastructure</h3>
             <p>
-              Worked on deploying projects using Azure, AWS, Google cloud
-              services!
+              Worked on deploying projects using Azure, AWS, Google cloud,
+              Heroku, and Netlify services!
             </p>
           </div>
         </div>
