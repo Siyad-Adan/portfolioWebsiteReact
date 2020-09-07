@@ -29,10 +29,10 @@ const About = () => {
               <p>
                 My education started with pursing Chemical Engineering at the
                 University of Ottawa. In my final year, after taking a Java
-                course I figured I enjoying programming alot! It was since then
-                that I decided to start pursuing it as a career. I enrolled in
-                Carleton University for the Computer Science program and the
-                rest is history...
+                course, I figured out that I really enjoyed programming alot! It
+                was since then that I decided to start pursuing it as a career.
+                I enrolled in Carleton University for the Computer Science
+                program and the rest is history...
               </p>
             </div>
             <div className="bio-more">
