@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer id="main-footer">
       <div className="footer-content container">
-        <p>Siyad Adan &copy; 2020</p>
+        <p>Siyad Adan &copy; 2022</p>
         <div className="social">
           <a href="https://ca.linkedin.com/in/siyadadan" target="_blank">
             <i className="fab fa-linkedin"></i>

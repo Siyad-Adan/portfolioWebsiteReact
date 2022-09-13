@@ -47,7 +47,7 @@ const Home = () => {
             <i className="fas fa-cogs fa-3x"></i>
             <h3>Infrastructure</h3>
             <p>
-              Worked on deploying projects using Azure, AWS, Google cloud,
+              Worked on deploying projects using Azure, AWS, Google Cloud,
               Heroku, and Netlify services!
             </p>
           </div>
@@ -62,7 +62,7 @@ const Home = () => {
                 <i className="fas fa-graduation-cap fa-3x"></i>
               </li>
               <li className="stats-title">Degrees</li>
-              <li className="stats-number">2 (Almost?)</li>
+              <li className="stats-number">2</li>
             </ul>
           </div>
           <div>
